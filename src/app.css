@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+body{
+    font-family: 'Protest Strike', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-overflow-scrolling: touch;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+
+
+#start{
+    transition: opacity 0.3s ease-in-out;
+}
+
+#input-section{
+    transition:  opacity 300ms ease-in-out;
+}
+
+#next-button{
+    transition:  opacity 300ms ease-in-out;
+    margin-top: 10px;
+}
+
+#next-button-2{
+    transition:  opacity 300ms ease-in-out;
+}
+
+.fade-out{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.fade-in{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.date-pick{
+    transition: all 300ms ease-in-out;
+}
